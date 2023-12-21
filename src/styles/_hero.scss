@@ -1,0 +1,18 @@
+.hero {
+    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../images/1611339171558.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &__text {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 100%);
+        font-family: "Typewriter V1", Arial, sans-serif;
+        font-size: 45px;
+    }
+}
